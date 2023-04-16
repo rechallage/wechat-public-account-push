@@ -19,21 +19,21 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小黄宝贝',
+      name: '姚宇',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o5A6A6QUnv0KvbIY_78DI3b5goME',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'uK-fRxnP8-059WaBppRDRsy88FfvSkMzMKZjYzE1_1c',
+      useTemplateId: ' 	6aRxrz6DWoKXRlXKb6k-kuOA6ENVnbAUkTskfmnn5JQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '02-19',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小黄宝贝', year: '2000', date: '01-29',
+          type: '*生日', name: '姚宇', year: '2000', date: '01-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小黄宝贝', year: '2000', date: '02-19',
+          type: '生日', name: '姚宇', year: '2000', date: '02-19',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
