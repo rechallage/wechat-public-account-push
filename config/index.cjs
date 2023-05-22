@@ -57,6 +57,27 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o5A6A6QUnv0KvbIY_78DI3b5goME',
+            // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '02-19',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '小黄宝贝', year: '2000', date: '01-29',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '小黄宝贝', year: '2000', date: '02-19',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2023-03-18' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2023-01-23' },
+        { keyword: 'dd_day', date: '2023-10-01' },
+        { keyword: 'dw_day', date: '2023-6-22' },
+      ],
     }
   ],
 
